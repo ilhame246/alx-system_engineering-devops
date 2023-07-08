@@ -1,2 +1,1 @@
-0 string HOLBERTON Holberton data
-!:mime Holberton
+echo '0 string HOLBERTON Holberton data' | grep -q 'Holberton' && echo 'Found' || echo 'Not found'
